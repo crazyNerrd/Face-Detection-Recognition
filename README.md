@@ -1,27 +1,30 @@
-## Face Detection and Recognition
+---
 
-This project implements a real-time face detection and recognition system using OpenCV and TensorFlow's Keras. It utilizes a pre-trained deep learning model to identify faces captured from a webcam feed.
+# Face Detection and Recognition
 
-### Features
+This project implements a real-time face detection and recognition system using OpenCV and TensorFlow's Keras. The project consists of two main scripts: one for capturing face images from a webcam and saving them into a directory, and another for recognizing faces from the saved images using a pre-trained Keras model.
 
-- **Real-time Face Detection**: Uses OpenCV's Haar Cascade Classifier to detect faces in video frames.
-- **Face Recognition**: Classifies detected faces using a trained Keras model.
+## Features
+
+- **Real-time Face Detection**: Uses OpenCV's Haar Cascade Classifier to detect faces.
+- **Face Recognition**: Recognizes detected faces using a trained Keras model.
+- **Image Capture**: Captures images from a webcam and stores them in a structured directory.
 - **Probability Display**: Shows the prediction probability along with the recognized face's name.
-- **Simple and Intuitive UI**: Displays real-time video feed with annotations.
+- **Simple and Intuitive UI**: Displays video feed with annotations and handles user input for capturing and recognizing faces.
 
-### Requirements
+## Requirements
 
 - Python 3.9
 - TensorFlow
 - OpenCV
 - NumPy
 
-### Usage
+## Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/yourusername/face-detection-recognition.git](https://github.com/crazyNerrd/Face-Detection.git)
-   cd face-detection
+   git clone https://github.com/yourusername/face-detection-recognition.git
+   cd face-detection-recognition
    ```
 
 2. **Install Dependencies**:
@@ -29,16 +32,23 @@ This project implements a real-time face detection and recognition system using 
    pip install -r requirements.txt
    ```
 
-3. **Run the Application**:
-   ```bash
-   python face_recognition.py
-   ```
+## Usage
 
-### Files
+### 1. Capturing Images from Webcam
 
-- `face_recognition.py`: Main script for running the face detection and recognition.
-- `haarcascade_frontalface_default.xml`: Haar Cascade file for face detection.
-- `keras_model.h5`: Pre-trained Keras model for face recognition.
+Run the script to capture images from the webcam and save them into a specified directory:
+
+```bash
+python datacollect.py
+```
+
+### 2. Recognizing Faces from Captured Images
+
+Run the script to load images from the directory and recognize faces using the Keras model:
+
+```bash
+python recognize_faces.py
+```
 
 ### License
 
@@ -46,4 +56,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This description provides an overview of the project, lists the main features, outlines the requirements, and includes basic usage instructions.
+Provides a clear and detailed overview of the project, its features, requirements, installation steps, usage instructions, and script details. This should help users understand and utilize your project effectively.
