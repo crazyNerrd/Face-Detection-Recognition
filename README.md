@@ -23,7 +23,7 @@ This project implements a real-time face detection and recognition system using 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/face-detection-recognition.git
+   git clone https://github.com/crazyNerrd/Face-Detection-Recognition.git
    cd face-detection-recognition
    ```
 
