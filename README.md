@@ -11,7 +11,7 @@ This project implements a real-time face detection and recognition system using 
 
 ### Requirements
 
-- Python 3.x
+- Python 3.9
 - TensorFlow
 - OpenCV
 - NumPy
@@ -20,8 +20,8 @@ This project implements a real-time face detection and recognition system using 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/face-detection-recognition.git
-   cd face-detection-recognition
+   git clone [https://github.com/yourusername/face-detection-recognition.git](https://github.com/crazyNerrd/Face-Detection.git)
+   cd face-detection
    ```
 
 2. **Install Dependencies**:
