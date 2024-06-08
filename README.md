@@ -50,10 +50,4 @@ Run the script to load images from the directory and recognize faces using the K
 python recognize_faces.py
 ```
 
-### License
 
-This project is licensed under the MIT License.
-
----
-
-Provides a clear and detailed overview of the project, its features, requirements, installation steps, usage instructions, and script details. This should help users understand and utilize your project effectively.
